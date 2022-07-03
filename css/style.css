@@ -637,6 +637,19 @@ aside {
     box-shadow: 0 0 10px grey;
   }
 
+  aside {
+    height: 600px;
+    padding-bottom: 10%;
+  }
+
+  #popular-list {
+    height: 90%;
+  }
+
+  #popular-list a {
+    height: 27.5%;
+  }
+
   #activities {
     display: flex;
     flex-direction: column;
