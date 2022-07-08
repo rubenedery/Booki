@@ -45,9 +45,8 @@ header {
 }
 
 #logo {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  margin: 15px 0;
+  width: 100px;;
 }
 
 nav ul {
@@ -250,7 +249,6 @@ nav > a:visited:hover {
 /*Les plus populaires*/
 
 aside {
-  border-radius: 25px;
   display: flex;
   flex-direction: column;
   padding-bottom: 10%;
@@ -496,6 +494,7 @@ li {
   }
 
   aside {
+    border-radius: 25px;
     width: 25%;
     padding: 0 2%;
   }
@@ -559,11 +558,13 @@ li {
   .activity-card:hover {
     box-shadow: 0 0 10px #0065FC;
   }
-}
 
-footer {
-  display: flex;
-  justify-content: space-between;
+  /*footer*/
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* ------------(écran max 992px)------------- */
@@ -738,15 +739,15 @@ footer {
   #activities-list > a > .activity-card .card-photo {
     height: 90%;
   }
+
+  footer {
+    padding: 0 3%;
+  }
 }
 
 /* ------------Tablette entre 768px et 991px)------------- */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #logo {
-    height: 125px;
-  }
-
   #search-section > div:nth-child(2) {
     width: 500px;
     display: flex;
@@ -793,15 +794,16 @@ footer {
   #activities {
     height: 2200px;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* ------------Smartphone sous 768px)------------- */
 
 @media screen and (max-width: 767px) {
-  #logo {
-    height: 75px;
-  }
-
   #search-section > div:nth-child(2) {
     display: flex;
     justify-content: center;
@@ -846,6 +848,11 @@ footer {
 
   #activities {
     height: 1600px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 
