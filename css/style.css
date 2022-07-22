@@ -89,7 +89,7 @@ nav > a:visited:hover {
 }
 
 #search-section > div {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 #search-section p {
@@ -148,19 +148,19 @@ nav > a:visited:hover {
 }
 
 #filters button:nth-child(1) {
-  width: 145px;
+  width: 150px;
 }
 
 #filters button:nth-child(2) {
-  width: 115px;
+  width: 120px;
 }
 
 #filters button:nth-child(3) {
-  width: 145px;
+  width: 150px;
 }
 
 #filters button:nth-child(4) {
-  width: 190px;
+  width: 195px;
 }
 
 #filters button:hover {
@@ -370,7 +370,7 @@ li {
   line-height: 2;
 }
 
-/* -------------(Desktop +992px)--------------- */
+/* -------------DESKTOP--------------- */
 
 /* Header */
 
@@ -419,7 +419,8 @@ li {
   }
 
   #locbutton {
-    width: 50px;
+    width: 55px;
+    pointer-events: none
   }
 
   #searchbar {
@@ -441,7 +442,7 @@ li {
   }
 
   #filters-container {
-    width: 75%;
+    width: 80%;
     height: 100%;
     display: flex;
   }
@@ -457,7 +458,7 @@ li {
   }
 
   #filters button:nth-child(1) {
-    margin-left: 15px;
+    margin-left: 17px;
   }
 }
 
@@ -629,7 +630,7 @@ li {
 
   #search-section > div:nth-child(2) {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     align-self: center;
   }
 
@@ -639,6 +640,7 @@ li {
 
   #locbutton {
     width: 60px;
+    pointer-events: none
   }
 
   #filters-container {
