@@ -183,11 +183,11 @@ nav > a:visited:hover {
 #titleinfo {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .fa-info {
-  margin-right: 5px;
+  margin-right: 12px;
   padding: 5px 8px;
   border: #F2F2F2 2px solid;
   border-radius: 25px;
@@ -391,6 +391,7 @@ li {
     align-items: center;
     padding: 0 20px;
     border-top: 2px #F2F2F2 solid;
+    margin: -17px 15px;
   }
 
   nav > a:hover {
@@ -403,6 +404,9 @@ li {
 @media screen and (min-width: 992px) {
   main > * {
     padding: 0 3%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 5px;
   }
 
   main > section {
@@ -442,7 +446,7 @@ li {
   }
 
   #filters-container {
-    width: 80%;
+    width: 65%;
     height: 100%;
     display: flex;
   }
@@ -594,7 +598,7 @@ li {
 
   nav > a {
     width: 50%;
-    margin-bottom: -2px;
+    margin-bottom: 10px;
     padding: 10px 0;
     border-bottom: 2px #F2F2F2 solid;
   }
